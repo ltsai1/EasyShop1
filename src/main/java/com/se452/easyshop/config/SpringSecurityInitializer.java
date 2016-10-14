@@ -9,6 +9,8 @@ package com.se452.easyshop.config;
  *
  * @author Camille
  */
+/*
 public class SpringSecurityInitializer {
     
 }
+*/
