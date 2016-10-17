@@ -20,6 +20,6 @@
 </section>
 
 <!-- end the middle column -->
-<jsp:include page="/share/right_column_buttons.jsp" />
+<jsp:include page="/share/right_column_button.jsp" />
 <jsp:include page="/share/footer.jsp" />
 
