@@ -1,4 +1,3 @@
-
 <jsp:include page="/share/header.jsp" />
 <jsp:include page="/share/left_column_all.jsp" />
 
