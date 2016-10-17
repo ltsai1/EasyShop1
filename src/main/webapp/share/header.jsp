@@ -14,11 +14,11 @@
     <meta charset="utf-8">
     <title>EasyShop</title>
     <link rel="stylesheet" href="<c:url value='/styles/main.css'/> ">
+    <!-- <link rel="stylesheet" href="<c:url value='/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css'/> "> -->
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </head>
 
 <body>
-
     <header>
         <h1>EasyShop</h1>
     </header>
