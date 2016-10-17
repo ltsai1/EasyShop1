@@ -4,7 +4,7 @@
 <!-- start the middle column -->
 
 <section>
-    <jsp:include page="/includes/product_table.jsp" />
+    <jsp:include page="/share/product_table.jsp" />
     <p class="clear_both">
     
 Details & Care
