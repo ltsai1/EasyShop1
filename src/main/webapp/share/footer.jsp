@@ -1,5 +1,5 @@
     <footer>
-        <p>EasyShop 2016</p>
+        <p>&copy; 2016 EasyShop</p>
     </footer>
 </body>
 </html>
