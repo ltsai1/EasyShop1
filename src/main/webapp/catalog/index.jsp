@@ -13,7 +13,9 @@
     <p><a href="product/bag02">Item Name 2</a></p>
     
     <h2 class="top_margin">Men's Bag</h2>
-    
+    <p><a href="product/men_bag01">Item Name 1</a></p>
+    <p><a href="product/men_bag02">Item Name 2</a></p>
+    <p><a href="product/men_bag03">Item Name 3</a></p>
 
 </section>
 
