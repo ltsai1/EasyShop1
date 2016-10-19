@@ -12,13 +12,13 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-6">
           <h2>Women's Bag</h2>
             <p><a href="product/bag01">Item Name 1</a></p>
             <p><a href="product/bag02">Item Name 2</a></p>
         </div>
         
-        <div class="col-md-4">
+        <div class="col-lg-6">
             <h2 class="top_margin">Men's Bag</h2>
             <p><a href="product/men_bag01">Item Name 1</a></p>
             <p><a href="product/men_bag02">Item Name 2</a></p>
