@@ -1,11 +1,6 @@
 <jsp:include page="/share/header.jsp" />
 <!--<jsp:include page="/share/left_column_all.jsp" />-->
 
-    <div class="jumbotron">
-      <div class="container">
-        
-      </div>
-    </div>
 <!-- start the middle column -->
     
     <div class="container">
