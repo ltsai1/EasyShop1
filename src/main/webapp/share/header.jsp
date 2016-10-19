@@ -19,19 +19,18 @@
     <link rel="stylesheet" href="<c:url value='/bootstrap-3.3.7-dist/css/bootstrap.min.css'/> ">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="<c:url value='/bootstrap-3.3.7-dist/css/jumbotron.css'/> ">
+    <link rel="stylesheet" href="<c:url value='/bootstrap-3.3.7-dist/css/carousel.css'/> ">
     
     <title>EasyShop</title>
     <!-- <link rel="stylesheet" href="<c:url value='/styles/main.css'/> "> -->
     
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </head>
 
 
 
 <body>
     
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar navbar-default navbar-inverse" style="border-radius:0px !important; margin-bottom:0px;">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -46,6 +45,7 @@
           
         <div id="navbar" class="navbar-collapse collapse">  
           <ul class="nav navbar-nav">
+            
             <li><a href="<c:url value='/catalog' />">Browse Catalog</a></li>
             <li><a href="<c:url value='/email' />">Email List</a></li>
           </ul>

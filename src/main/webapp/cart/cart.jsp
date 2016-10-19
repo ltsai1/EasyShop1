@@ -1,9 +1,12 @@
 <jsp:include page="/share/header.jsp" />
-<jsp:include page="/share/left_column_all.jsp" />
+<!-- <jsp:include page="/share/left_column_all.jsp" /> -->
 
 <!-- begin middle column -->
 
-<section class="cart">
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     
 <h1>Your cart</h1>
@@ -13,13 +16,13 @@
       </c:when>
       <c:otherwise>
         <table>
-           <tr>
-            <th>Qty</th>
-            <th>Description</th>
-            <th>Price</th>
-            <th>Amount</th>
-            <th>&nbsp;</th>
-         </tr>
+            <tr>
+                <th>Qty</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Amount</th>
+                <th>&nbsp;</th>
+            </tr>
           <c:forEach var="item" items="${cart.items}">
             <tr class="cart_row">
               <td>
@@ -66,8 +69,10 @@
     </form>
     
 </c:if>
-</section>
 
-<!-- end middle column -->
-
-<jsp:include page="/share/footer.jsp" />
+        </div>
+      </div>
+    <hr>
+    <!-- end middle column -->
+    <jsp:include page="/share/footer.jsp" />
+</div>
