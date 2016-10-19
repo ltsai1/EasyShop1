@@ -1,3 +1,9 @@
+<%-- 
+    Document   : index
+    Created on : Oct 17, 2016, 8:09:47 PM
+    Author     : duely
+--%>
+
 <jsp:include page="/share/header.jsp" />
 <!--<jsp:include page="/share/left_column_all.jsp" />-->
 
@@ -8,16 +14,10 @@
       <div class="row">
         <div class="col-md-4">
             <p class="clear_both">
-                Details & Care
-                Dual tassels and a brogue-trimmed flap enhance the vintage sophistication of a perfectly proportioned backpack in lavish pebbled leather.
-                -Push-lock flap closure
-                -Top carry handle; adjustable backpack straps
-                -Side snap gussets
-                -Interior zip pocket
-                -Signature dot-jacquard lining
-                -Leather
-                -By kate spade new york; imported
-                -Handbags
+                - Our supple leather briefcase is fashioned from high-quality Italian leather from a renowned tannery.
+                - Inner sleeve pockets. Brass hardware. Zip closure.
+                - Reinforced, heavy-duty removable strap.
+                - Measures 18" x 13 3/4" x 5 1/4". 5" handle drop.
             </p>
             <jsp:include page="/share/right_column_button.jsp" />
         </div>
@@ -27,5 +27,8 @@
     </div> <!-- /container -->
 
 <!-- end the middle column -->
+
+
+
 
 
