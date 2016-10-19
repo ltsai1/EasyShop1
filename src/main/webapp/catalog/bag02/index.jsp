@@ -1,19 +1,22 @@
-
 <jsp:include page="/share/header.jsp" />
-<jsp:include page="/share/left_column_all.jsp" />
+<!--<jsp:include page="/share/left_column_all.jsp" />-->
 
 <!-- start the middle column -->
-
-<section>
-    <jsp:include page="/share/product_table.jsp" />
-    <p class="clear_both">
     
+    <div class="container">
+        <jsp:include page="/share/product_table.jsp" />
+      <div class="row">
+        <div class="col-md-4">
+            <p class="clear_both">
+                <!-- Insert detail about product here -->
+            </p>
+            <jsp:include page="/share/right_column_button.jsp" />
+        </div>
+      </div>
+      <hr>
+      <jsp:include page="/share/footer.jsp" />
+    </div> <!-- /container -->
 
-
-    </p>
-</section>
-<jsp:include page="/share/right_column_buttons.jsp" />
 <!-- end the middle column -->
 
-<jsp:include page="/share/footer.jsp" />
 
