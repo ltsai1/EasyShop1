@@ -5,10 +5,10 @@
     
     <div class="container">
         <jsp:include page="/share/product_table.jsp" />
+        
       <div class="row">
         <div class="col-md-4">
             <p class="clear_both">
-                Details & Care
                 Dual tassels and a brogue-trimmed flap enhance the vintage sophistication of a perfectly proportioned backpack in lavish pebbled leather.
                 -Push-lock flap closure
                 -Top carry handle; adjustable backpack straps

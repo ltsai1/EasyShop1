@@ -48,6 +48,7 @@
             
             <li><a href="<c:url value='/catalog' />">Browse Catalog</a></li>
             <li><a href="<c:url value='/email' />">Email List</a></li>
+            <li><a href="<c:url value='/order/showCart'/>"> <span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
           </ul>
             
           <form class="navbar-form navbar-right">

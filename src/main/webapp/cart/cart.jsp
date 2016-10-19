@@ -15,7 +15,11 @@
           <p>Your cart is empty.</p>
       </c:when>
       <c:otherwise>
+<<<<<<< HEAD
         <table class="table">
+=======
+        <table width="800" border="1" >
+>>>>>>> remote/master
             <tr>
                 <th>Qty</th>
                 <th>Description</th>
@@ -25,9 +29,14 @@
             </tr>
             
           <c:forEach var="item" items="${cart.items}">
+<<<<<<< HEAD
               
             <tr>
               <td>
+=======
+            <tr class="cart_row">
+              <td align="center" valign="top">
+>>>>>>> remote/master
                 <form action="<c:url value='/order/updateItem'/>" method="post">
                   <input type="hidden" name="productModel" 
                          value="<c:out value='${item.product.model}'/>">

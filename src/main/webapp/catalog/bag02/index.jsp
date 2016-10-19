@@ -8,7 +8,17 @@
       <div class="row">
         <div class="col-md-4">
             <p class="clear_both">
-                <!-- Insert detail about product here -->
+                
+            An oversized buckle strap instantly enhances the vintage character of a full-grain leather satchel featuring crisp Burberry checks at the shoulder strap and lining.
+            -Magnetic-tab closure
+            -Top carry handles; optional, adjustable shoulder strap
+            -Interior zip, wall and smartphone pockets
+            -Protective metal feet
+            -Burberry check lining
+            -Leather
+            -Made in Italy
+            -Designer Handbags
+
             </p>
             <jsp:include page="/share/right_column_button.jsp" />
         </div>
