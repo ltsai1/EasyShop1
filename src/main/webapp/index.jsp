@@ -43,11 +43,11 @@
       <div class="row">
         <div class="col-lg-6">
           <h2>// WOMEN</h2>       
-          <p><a class="btn btn-default" href="<c:url value='/catalog' />" role="button">SHOP NOW &raquo;</a></p>
+          <p><a class="btn btn-default" href="<c:url value='catalog/women_catalog' />" role="button">SHOP NOW &raquo;</a></p>
         </div>
         <div class="col-lg-6">
           <h2>// MEN</h2>
-          <p><a class="btn btn-default" href="<c:url value='/catalog' />" role="button">SHOP NOW &raquo;</a></p>
+          <p><a class="btn btn-default" href="<c:url value='catalog/men_catalog' />" role="button">SHOP NOW &raquo;</a></p>
        </div>
       </div>
 
