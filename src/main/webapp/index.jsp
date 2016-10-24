@@ -1,4 +1,5 @@
 <jsp:include page="/share/header.jsp" />
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!-- <jsp:include page="/share/left_column_home.jsp" /> -->
     
     	<!-- Slide Show -->
@@ -41,14 +42,12 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-lg-6">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>// WOMEN</h2>       
+          <p><a class="btn btn-default" href="<c:url value='/catalog' />" role="button">SHOP NOW &raquo;</a></p>
         </div>
         <div class="col-lg-6">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>// MEN</h2>
+          <p><a class="btn btn-default" href="<c:url value='/catalog' />" role="button">SHOP NOW &raquo;</a></p>
        </div>
       </div>
 
