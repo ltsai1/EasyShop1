@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="<c:url value='/bootstrap-3.3.7-dist/css/carousel.css'/> ">    
 </head>
 
-
 <body>
       <nav class="navbar navbar-default navbar-inverse" style="border-radius:0px !important; margin-bottom:0px;">
       <div class="container">
@@ -43,7 +42,7 @@
           
           <ul class="nav navbar-nav navbar-right">
               <li><a href="<c:url value='/order/showCart'/>"> <span class="glyphicon glyphicon-shopping-cart"></span></a></li>
-              <li><a href="<c:url value='/user'/>">SIGN IN</a></li>
+              <li><a href="<c:url value='/user_login'/>">SIGN IN</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
