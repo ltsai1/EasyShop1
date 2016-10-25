@@ -11,25 +11,17 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>EasyShop</title>
-
+    <title>EASYSHOP</title>
+    <!-- Icon -->
+    <link rel="icon" href="<c:url value='/images/favicon.ico'/>">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="<c:url value='/bootstrap-3.3.7-dist/css/bootstrap.min.css'/> ">
-
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="<c:url value='/bootstrap-3.3.7-dist/css/carousel.css'/> ">
-    
-    <title>EasyShop</title>
-    <!-- <link rel="stylesheet" href="<c:url value='/styles/main.css'/> "> -->
-    
+    <link rel="stylesheet" href="<c:url value='/bootstrap-3.3.7-dist/css/carousel.css'/> ">    
 </head>
 
-
-
 <body>
-    
       <nav class="navbar navbar-default navbar-inverse" style="border-radius:0px !important; margin-bottom:0px;">
       <div class="container">
         <div class="navbar-header">
@@ -39,27 +31,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<c:url value='/' />">EasyShop</a>
+          <a class="navbar-brand" href="<c:url value='/' />">EASYSHOP</a>
         </div>
-
-          
+ 
         <div id="navbar" class="navbar-collapse collapse">  
           <ul class="nav navbar-nav">
-            
-            <li><a href="<c:url value='/catalog' />">Browse Catalog</a></li>
-            <li><a href="<c:url value='/email' />">Email List</a></li>
-            <li><a href="<c:url value='/order/showCart'/>"> <span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+              <li><a href="<c:url value='catalog/women_catalog' />">WOMEN</a></li>
+              <li><a href="<c:url value='catalog/men_catalog' />">MEN</a></li>
+            <!-- <li><a href="<c:url value='/catalog' />">Browse Catalog</a></li> -->
+            <!-- <li><a href="<c:url value='/email' />">Email List</a></li> -->
           </ul>
-            
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+          
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="<c:url value='/order/showCart'/>"> <span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+              <li><a href="<c:url value='/user_login'/>">SIGN IN</a></li>
+          </ul>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>

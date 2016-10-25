@@ -1,27 +1,24 @@
 <jsp:include page="/share/header.jsp" />
-<!--<jsp:include page="/share/left_column_catalog.jsp" /> -->
 
 <!-- start the middle column -->
 
 <!-- If necessary, this page could be generated from the database. -->
     <div class="jumbotron">
       <div class="container">
-        <h1></h1>
+        <h1>Men's Shoes</h1>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h2><a href="product/women_catalog">Shop Women</a></h2>
+          <h2></h2>
+            <p><a href="../product/m_shoes01">Air Jordan 3 Retro</a></p>
+            <p><a href="../product/m_shoes02">Yeezy Boost 350</a></p>
+            <p><a href="../product/m_shoes03">Supra Skytop</a></p>
         </div>
-        
-        <div class="col-lg-6">
-            <h2><a href="product/men_catalog">Shop Men</a></h2>
         </div>
-      </div>
-
-      <hr>
+    <hr>
 
       <jsp:include page="/share/footer.jsp" />
     </div> <!-- /container -->

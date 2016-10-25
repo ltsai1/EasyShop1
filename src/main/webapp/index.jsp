@@ -1,16 +1,6 @@
 <jsp:include page="/share/header.jsp" />
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!-- <jsp:include page="/share/left_column_home.jsp" /> -->
-
-<!-- start the middle column -->
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!-- <div class="jumbotron">
-      <div class="container">
-        <h1>Welcome to Easy Shop!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div> -->
     
     	<!-- Slide Show -->
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -51,21 +41,14 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-lg-6">
+          <h2>// WOMEN</h2>       
+          <p><a class="btn btn-default" href="<c:url value='catalog/women_catalog' />" role="button">SHOP NOW &raquo;</a></p>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-lg-6">
+          <h2>// MEN</h2>
+          <p><a class="btn btn-default" href="<c:url value='catalog/men_catalog' />" role="button">SHOP NOW &raquo;</a></p>
        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
       </div>
 
       <hr>
