@@ -6,9 +6,11 @@ package com.se452.easyshop.business;
 
 import java.text.NumberFormat;
 import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 public class Product implements Serializable {
-
+   
     private Long productId;    
     private String model;
     private String description;

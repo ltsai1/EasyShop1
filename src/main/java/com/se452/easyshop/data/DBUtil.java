@@ -6,7 +6,15 @@ package com.se452.easyshop.data;
  * @author Camille
  */
 import java.sql.*;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 public class DBUtil {
+    
+    //private static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("productPU");
+    
+    //public static EntityManagerFactory getEmFactory(){
+   //     return emf;
+   // }
 
     public static void closeStatement(Statement s) {
         try {

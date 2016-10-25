@@ -17,7 +17,7 @@
           <p><a href="../women_catalog/women_clothing.jsp">Clothes</a></p>
           <p><a href="../women_catalog/women_shoes.jsp">Shoes</a></p>
           <p><a href="../women_catalog/women_bags.jsp">Bags</a></p>
-          
+          <p><a href="../women_catalog/women_collection.jsp">All Collection</a></p>
             </a></p>
         </div>
         </div>
