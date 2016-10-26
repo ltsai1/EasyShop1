@@ -13,11 +13,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h2>Women's Catalog</h2>
-          <p><a href="../women_catalog/women_clothing.jsp">Clothes</a></p>
-          <p><a href="../women_catalog/women_shoes.jsp">Shoes</a></p>
-          <p><a href="../women_catalog/women_bags.jsp">Bags</a></p>
-          <p><a href="../women_catalog/women_collection.jsp">All Collection</a></p>
+          <h2>Men's Catalog</h2>
+          <p><a href="../catalog/men_catalog/men_clothing.jsp">Clothes</a></p>
+          <p><a href="../catalog/men_catalog/men_shoes.jsp">Shoes</a></p>
+          <p><a href="../catalog/men_catalog/men_bags.jsp">Bags</a></p>
+          
             </a></p>
         </div>
         </div>

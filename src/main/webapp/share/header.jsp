@@ -36,8 +36,8 @@
  
         <div id="navbar" class="navbar-collapse collapse">  
           <ul class="nav navbar-nav">
-              <li><a href="<c:url value='catalog/women_catalog' />">WOMEN</a></li>
-              <li><a href="<c:url value='catalog/men_catalog' />">MEN</a></li>
+              <li><a href="<c:url value='/header_women' />">WOMEN</a></li>
+              <li><a href="<c:url value='/header_men' />">MEN</a></li>
             <!-- <li><a href="<c:url value='/catalog' />">Browse Catalog</a></li> -->
             <!-- <li><a href="<c:url value='/email' />">Email List</a></li> -->
           </ul>
