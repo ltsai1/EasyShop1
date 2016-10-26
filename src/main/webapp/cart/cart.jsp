@@ -60,8 +60,8 @@
           </c:forEach>
             <tr>
               <td colspan="2">
-                <p><b>To change the quantity for an item</b>, enter the new quantity and click on the Update button.</p>
-                <p><b>To remove an item</b>, click on the Remove button.</p>
+                <!--<p><b>To change the quantity for an item</b>, enter the new quantity and click on the Update button.</p>
+                <p><b>To remove an item</b>, click on the Remove button.</p> -->
               </td>
               <td colspan="3">&nbsp;</td>
             </tr>
@@ -70,7 +70,8 @@
   </c:choose>
 
           
-<form action="<c:url value='/catalog'/>" method="get" id="float_left">
+<!--<form action="<c:url value='/catalog'/>" method="get" id="float_left"> -->
+<form action="<c:url value='../'/>" method="get" id="float_left">
   <input type="submit" value="Continue Shopping">
 </form>
           

@@ -32,15 +32,16 @@ public class CatalogController extends HttpServlet {
             .getRequestDispatcher("women_catalog/women_collection.jsp")
             .forward(request, response);
         }else{
+        
             url = showProduct(request, response);
             getServletContext()
             .getRequestDispatcher(url)
             .forward(request, response);
         
+        }
         
         
-        
-    }
+    
     }
 /*
     @Override
@@ -57,6 +58,7 @@ public class CatalogController extends HttpServlet {
     }
 */
     //testing
+
         private String showAllProducts(HttpServletRequest request, 
             HttpServletResponse response) {
         String productModel = request.getPathInfo();
@@ -69,7 +71,7 @@ public class CatalogController extends HttpServlet {
         }        
         return "/catalog/" + productModel + "/index.jsp";
     }
-
+        
    private String showProduct(HttpServletRequest request, 
             HttpServletResponse response) {
         String productModel = request.getPathInfo();
