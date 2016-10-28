@@ -13,10 +13,11 @@
       <div class="row">
         <div class="col-lg-6">
           <h2>LOGIN</h2>
-            <form class="navbar-form navbar-left" role="search">
+            <!--<form class="navbar-form navbar-left" role="search"> -->
+                <form action = "login" class="navbar-form navbar-left" role="search">
               <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Email"> </br>
-                  <input type="password" class="form-control" placeholder="Password">
+                  <input type="text" name = "uname" class="form-control" placeholder="Email"> </br>
+                  <input type="password" name = "pass" class="form-control" placeholder="Password">
               </div>
                 </br><button type="submit" class="btn btn-default">LOGIN &raquo;</button>
             </form>
