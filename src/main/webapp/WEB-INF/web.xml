@@ -8,6 +8,7 @@
     
     
     <!-- servlet definitions  -->
+    <!--
     <servlet>
     <servlet-name>EasyShop</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -18,18 +19,18 @@
     <servlet-name>EasyShop</servlet-name>
     <url-pattern>*.htm</url-pattern>
   </servlet-mapping>
-
+-->
     <servlet>
     <servlet-name>login</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
    
     </servlet>
-
-  <servlet-mapping>
-    <servlet-name>login</servlet-name>
-    <url-pattern>user_login</url-pattern>
-  </servlet-mapping>
     
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/user_login/*</url-pattern>
+    </servlet-mapping>
+
     
     <servlet>
         <servlet-name>AdminController</servlet-name>
